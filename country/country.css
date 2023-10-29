@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: rgb(157, 228, 228);
+}
+
+.container{
+    width: 100%;
+    margin: 150px auto;
+}
+.itemDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.countriyBox{
+    padding: 15px;
+    width: 280px;
+    margin: 15px 0px;
+    background-color: white;
+    border-radius: 5px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.countriyBox:hover{
+    box-shadow: 0px 0px 10px 1px black;
+    transform: scale(1.05);
+}
+.countriyBox a{
+    text-decoration: none;
+    color: black;
+}
+.countriyBox p{
+    line-height: 26px;
+}
+.countriyBox p span{
+    width: 150px !important;
+    font-weight: bold;
+}
+.countriyBox h3{
+    margin-top: 10px;
+    line-height: 50px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.countriyBox img{
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid rgb(95, 95, 95);
+}
+
+
+
